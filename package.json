@@ -4,7 +4,7 @@
   "description": "Testing VSTS CI",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/**/*.js --reporter mochawesome --reporter-options reportDir=TestResults"
+    "test": "mocha lib/tests/**/*.js --reporter mochawesome --reporter-options reportDir=TestResults"
   },
   "author": "",
   "license": "ISC",

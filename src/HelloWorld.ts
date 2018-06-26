@@ -1,6 +1,9 @@
 export class HelloWorld {
   public helloWorld() : string {
-    return 'Hello World'
+    return this.speak("Hello World");
+  }
+  private speak(words: string) : string {
+    return words;
   }
 }
 export default HelloWorld;
